@@ -1,0 +1,42 @@
+body{background-image: url('castle-background.jpg');
+background-size: cover;}
+h1{background-color: #0345fb97;
+text-align: center;
+}
+.container-fluid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h2{color: antiquewhite;
+}
+.login-box{
+    flex-direction: column;
+    display:flex;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+    background-image: url('dragon-scale-1.jpg') ;
+    background-size: cover;
+    
+    width: 40vh;
+    height: 55vh ;
+    border-radius: 50%;
+    box-shadow: 31px 18px 4px 4px rgba(0,0,0,0.75);
+}
+input{
+    margin-top: 4px;
+    border-radius: 10px;
+    background-color: beige;
+}
+#login-button{margin-top: 3px;
+border-radius: .6em;
+}
+
+
+
+@media (any-hover:hover){
+    #username:hover,#password-in:hover{
+        background-color: burlywood;
+    }
+}
