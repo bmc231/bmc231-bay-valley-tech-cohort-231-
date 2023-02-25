@@ -49,7 +49,7 @@
     min-width: 100px;
     font-size:medium;
 }
-/* hover setup */
+/* hover setup*/
 @media (any-hover:hover){
     #username:hover,#password:hover{
         background-color: rgba(82, 248, 82, 0.528);
